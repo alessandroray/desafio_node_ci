@@ -1,0 +1,23 @@
+{
+  "name": "desafio_node_ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./src/index",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.11",
+    "sonar-scanner": "^3.1.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
